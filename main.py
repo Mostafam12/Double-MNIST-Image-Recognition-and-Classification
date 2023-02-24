@@ -2,7 +2,7 @@ import timeit
 import numpy as np
 from skimage.draw import polygon
 
-from A7_submission import classify_and_detect
+from run import classify_and_detect
 
 
 def resize_ar(src_img, width=0, height=0, return_factors=False,
